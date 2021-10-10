@@ -240,7 +240,7 @@
             android:layout_height="match_parent">
 
             <android.widget.Button
-                android:id="@+id/minusPlusBtn"
+                android:id="@+id/percentBtn"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
@@ -248,7 +248,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/numericalbtn_background"
                 android:backgroundTint="#616a6b"
-                android:text="@string/plusminus"
+                android:text="@string/percent"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
 

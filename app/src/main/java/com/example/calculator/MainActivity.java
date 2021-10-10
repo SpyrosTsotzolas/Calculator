@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Button twoBtn = findViewById(R.id.twoBtn);
         Button threeBtn = findViewById(R.id.threeBtn);
         Button addBtn = findViewById(R.id.addBtn);
-        Button minusPlusBtn = findViewById(R.id.minusPlusBtn);
+        Button percentBtn = findViewById(R.id.percentBtn);
         Button zeroBtn = findViewById(R.id.zeroBtn);
         Button pointBtn = findViewById(R.id.pointBtn);
         Button equalsBtn = findViewById(R.id.equalsBtn);
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         clickButton(twoBtn);
         clickButton(threeBtn);
         clickButton(addBtn);
-        clickButton(minusPlusBtn);
+        clickButton(percentBtn);
         clickButton(zeroBtn);
         clickButton(pointBtn);
         clickButton(equalsBtn);
@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
                 updateText("3");
             } else if ("+".contentEquals(text)) {
                 updateText("+");
-            } else if ("+/-".contentEquals(text)) {
-                updateText("-");
+            } else if ("%".contentEquals(text)) {
+                updateText("%");
             } else if ("0".contentEquals(text)) {
                 updateText("0");
             } else if (".".contentEquals(text)) {
